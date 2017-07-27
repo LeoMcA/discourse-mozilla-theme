@@ -9,3 +9,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TMGHNBJ')};</script>
 
 <meta name="google-site-verification" content="aP7UsvdPFYnZnuMpZajdyuKWnwH798PnDHPME_vacOE" />
+
+<script>
+  var userAgent = (window.navigator && navigator.userAgent) || ""
+
+  displayBanner('nightly', 'firefox', 'add-ons')
+  displayBanner('firefox', 'chrome', 'add-ons')
+
+  function displayBanner (banner, browsers, categories) {
+    if (detect(/Mobi/i)) return
+
+    if ($.type(browsers) === 'string') browsers = [ browsers ]
+    if ($.type(categories) === 'string') categories = [ categories ]
+
+    var display = false
+    var end = false
+
+    for (var i = 0; i < browsers.length; i++) {
+      browser = browsers[i]
+
+      switch (browser) {
+        case 'firefox':
+          display = detect(/Firefox/)
+          break
+        case 'chrome':
+          display = detect(/Chrome/)
+          break
+      }
+
+      if (display) break
+    }
+
+    if (display) {
+      categories.forEach(category => {
+        $('head').append(`<style> .category-${category} .download-banner-${banner} { display: block } </style>`)
+      })
+    }
+  }
+
+  function detect (pattern) {
+    return pattern.test(userAgent)
+  }
+</script>
