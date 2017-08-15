@@ -15,5 +15,135 @@
       "success": "00AF84",
       "love": "E14164"
     }
+  },
+  "fields": {
+    "mz-blue-1": {
+      "value": "#33525d",
+      "type": "color"
+    },
+    "mz-blue-2": {
+      "value": "#558194",
+      "type": "color"
+    },
+    "mz-blue-3": {
+      "value": "#88d1f1",
+      "type": "color"
+    },
+    "mz-blue-4": {
+      "value": "#c3e8f8",
+      "type": "color"
+    },
+    "mz-orange-1": {
+      "value": "#5e4812",
+      "type": "color"
+    },
+    "mz-orange-2": {
+      "value": "#c89631",
+      "type": "color"
+    },
+    "mz-orange-3": {
+      "value": "#f8b83e",
+      "type": "color"
+    },
+    "mz-orange-4": {
+      "value": "#fadb8c",
+      "type": "color"
+    },
+    "mz-red-1": {
+      "value": "#5d3739",
+      "type": "color"
+    },
+    "mz-red-2": {
+      "value": "#c07578",
+      "type": "color"
+    },
+    "mz-red-3": {
+      "value": "#fb8e92",
+      "type": "color"
+    },
+    "mz-red-4": {
+      "value": "#fdc6c8",
+      "type": "color"
+    },
+    "mz-purple-1": {
+      "value": "#454653",
+      "type": "color"
+    },
+    "mz-purple-2": {
+      "value": "#9194b0",
+      "type": "color"
+    },
+    "mz-purple-3": {
+      "value": "#b0b4e5",
+      "type": "color"
+    },
+    "mz-purple-4": {
+      "value": "#d7d9f2",
+      "type": "color"
+    },
+    "mz-green-1": {
+      "value": "#434f12",
+      "type": "color"
+    },
+    "mz-green-2": {
+      "value": "#6d7c23",
+      "type": "color"
+    },
+    "mz-green-3": {
+      "value": "#b7d43f",
+      "type": "color"
+    },
+    "mz-green-4": {
+      "value": "#dbea8e",
+      "type": "color"
+    },
+    "mz-gray-1": {
+      "value": "#646363",
+      "type": "color"
+    },
+    "mz-gray-2": {
+      "value": "#9d9d9c",
+      "type": "color"
+    },
+    "mz-gray-3": {
+      "value": "#d0d0d0",
+      "type": "color"
+    },
+    "mz-neon-blue-1": {
+      "value": "#3dfefd",
+      "type": "color"
+    },
+    "mz-neon-blue-2": {
+      "value": "#229d9a",
+      "type": "color"
+    },
+    "mz-neon-blue-3": {
+      "value": "#116362",
+      "type": "color"
+    },
+    "mz-neon-green-1": {
+      "value": "#aefb4a",
+      "type": "color"
+    },
+    "mz-neon-green-2": {
+      "value": "#6b9b2b",
+      "type": "color"
+    },
+    "mz-neon-green-3": {
+      "value": "#44611a",
+      "type": "color"
+    },
+    "mz-neon-purple-1": {
+      "value": "#f793fb",
+      "type": "color"
+    },
+    "mz-neon-purple-2": {
+      "value": "#ca78cc",
+      "type": "color"
+    },
+    "mz-neon-purple-3": {
+      "value": "#603861",
+      "type": "color"
+    }
   }
 }
