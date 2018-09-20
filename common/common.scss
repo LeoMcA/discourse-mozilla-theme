@@ -75,3 +75,71 @@ tr[data-category-id="275"] {
     color: #595959;
   }
 }
+
+/* Protocol-like button styles */
+
+.btn {
+    font-weight: bold;
+
+    .d-icon {
+        opacity: 1;
+    }
+}
+
+.btn, .select-kit.dropdown-select-box .dropdown-select-box-header {
+    border: 2px #000 solid;
+}
+
+.btn:hover, .btn.btn-hover,
+.btn:active, .btn.btn-active,
+.btn:focus, .btn.btn-focus {
+    background: #000;
+    color: #fff;
+}
+
+.btn,
+.btn-primary:hover, .btn-primary.btn-hover,
+.btn-primary:active, .btn-primary.btn-active,
+.btn-primary:focus, .btn-primary.btn-focus {
+    background: #fff;
+    color: #000;
+}
+
+.btn-primary {
+    background: #000;
+    color: #fff;
+}
+
+.btn-danger {
+    background: #d70022;
+    border: 2px #d70022 solid;
+    color: #fff;
+}
+
+.btn-danger:hover, .btn-danger.btn-hover,
+.btn-danger:active, .btn-danger.btn-active,
+.btn-danger:focus, .btn-danger.btn-focus {
+    background: #fff;
+    color: #d70022;
+}
+
+#iam-help {
+    background: #87d200;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 24px;
+    font-size: 2em;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      right: 30px;
+      bottom: -50px;
+      border: 25px solid;
+      border-color: #87d200 transparent transparent transparent;
+    }
+
+  }
