@@ -1,8 +1,7 @@
 $header-height: 84px;
 $header-padding: 22px;
 $body-padding: 28px;
-$black: $primary;
-$white: $secondary;
+$border-radius: 4px;
 
 // dinopark:
 $gray-10: #f9f9fa;
@@ -11,10 +10,10 @@ $gray-30: #d7d7db;
 $gray-40: #b1b1b3;
 $gray-50: #737373;
 $gray-60: #4a4a4f;
-$black: #000000;
+$black: $primary; // #000000;
 $blue-60: $tertiary; // #0060df;
 $duck-egg-blue: #f2fcfd;
-$white: #ffffff;
+$white: $secondary; // #ffffff;
 $charcoal-grey: #38383d;
 $true-green: $success; // #12bc00;
 $neon-red: $danger; // #ff0039;
@@ -134,7 +133,7 @@ $pink-50: $love;
 }
 
 #main-outlet {
-  background: $white;
+  background: $header-background;
   box-shadow: 0 0.25em 0.25em 0 hsla(0,0%,82.4%,0.5);
   border-radius: 0.125em;
   padding: $body-padding;
