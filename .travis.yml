@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+ - "node"
+env:
+  - BRANCH=beta
+  - BRANCH=beta-2
+before_script:
+  - npm install -g gulp-cli
+script: gulp
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  target_branch: $BRANCH
+  on:
+    branch: travis
